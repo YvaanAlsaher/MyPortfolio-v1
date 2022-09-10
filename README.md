@@ -1,7 +1,9 @@
 # MyPortfolio-v1
 
 
-First iteration of my personal portfolio.
+First iteration of my personal portfolio website.
+
+![demo](/assets/img/demo.PNG)
 
 ## Dependencies
 
