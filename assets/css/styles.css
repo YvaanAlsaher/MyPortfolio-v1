@@ -760,9 +760,13 @@ img {
 }
 .portfolio__links{
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .portfolio__icon{
     color: var(--first-color);
+    display: block;
+    margin-bottom: var(--mb-1);
 }
 
 .portfolio__title{
