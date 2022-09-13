@@ -495,7 +495,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
+/* .skills__bar,
 .skills__percentage{
   height: 5px;
   border-radius: .25rem;
@@ -552,7 +552,7 @@ img {
 
 .skills__photoshop{
   width: 85%;
-}
+} */
 
 .skills__close .skills__list{
   height: 0;
@@ -751,6 +751,19 @@ img {
   border-radius: .5rem;
   justify-self: center;
 }
+.portfolio__top{
+  grid-template-columns: repeat(2, 1fr);
+}
+.portfolio__folder{
+  font-size: 2rem;
+  
+}
+.portfolio__links{
+  font-size: 1.5rem;
+}
+.portfolio__icon{
+    color: var(--first-color);
+}
 
 .portfolio__title{
   font-size: var(--h3-font-size);
@@ -759,6 +772,12 @@ img {
 
 .portfolio__description{
   margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__footer li { 
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  display: inline;
 }
 
 .portfolio__button:hover .button__icon{
@@ -909,6 +928,12 @@ img {
   outline: none;
   ppadding: .25rem .5rem .5rem 0;
 }
+.google-maps {
+  width:50%; 
+  margin-right:2%;}
+.google-maps iframe {
+  width:100%; 
+  box-shadow:2px 2px 0 #ddd;}
 /*==================== FOOTER ====================*/
 .footer__container{
   row-gap: 3.5rem;

@@ -12,3 +12,4 @@ First iteration of my personal portfolio website.
 ## Getting Started
 
 `clone repository`
+
