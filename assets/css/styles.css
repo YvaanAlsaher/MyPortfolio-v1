@@ -200,6 +200,11 @@ img {
 .nav__logo:hover,{
     color: var(--first-color);
 }
+.nav__logo img{
+  max-width: 20%;
+  height: auto;
+  width:auto;
+}
 
 .nav__toggle {
   fonsize: 1.1rem;
