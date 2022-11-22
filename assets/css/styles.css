@@ -120,6 +120,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  overflow-y: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -141,6 +142,33 @@ img {
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
+
+.loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--body-color);
+  color: var(--text-color);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1900000;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-size: 6vw;
+}
+.loader span {
+  font-size: 3em;
+}
 .section {
   padding: 2rem 0 4rem;
 }
@@ -204,6 +232,7 @@ img {
   max-width: 20%;
   height: auto;
   width:auto;
+  color: var(--first-color);
 }
 
 .nav__toggle {
@@ -994,6 +1023,7 @@ img {
 .footer__social{
   color: #FFF;
 }
+
 /*========== SCROLL UP ==========*/
 .scrollup{
   position: fixed;

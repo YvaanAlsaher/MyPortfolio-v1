@@ -15,15 +15,43 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="/assets/css/styles.css">
 
-        <title>Mon Portfolio</title>
+        <title>Yvan Ngoahitsi | Software Engineer </title>
+
+        <meta
+        name="keywords"
+        content="Porfolio, Yvan, Ngoahitsi, Yvan Ngoahitsi, Gabon, Maroc, Ingénieur logiciel, Software Engineer, developpeur, back-end , FRONT-END, WEBSITES, software"
+        />
+        <meta
+        name="description"
+        content="I participate in the development of all technical features of a website, a web application or software. I design tailor-made sites or adapt existing technical solutions according to the requirements of the project and the needs of the client."
+        />
+        <meta
+        name="thumbnail"
+        content="https://avatars.githubusercontent.com/u/45407023?s=40&v=4"
+        />
+        <meta property="og:site_name" content="Yvan Ngoahitsi" />
+        <meta property="og:title" content="Yvan Ngoahitsi | Software Engineer" />
+        <meta property="og:type" content="Portfolio" />
+        <meta
+        property="og:description"
+        content="I participate in the development of all technical features of a website, a web application or software. I design tailor-made sites or adapt existing technical solutions according to the requirements of the project and the needs of the client."
+        />
+        <!-- <meta property="og:url" content="https://flocod.github.io/florian/" /> -->
+        <meta
+        property="og:image"
+        content="https://avatars.githubusercontent.com/u/45407023?s=40&v=4"
+        />
     </head>
-    <body>
+    <body class="body">
+        <div class="loader">
+            <div class="loader_counter"><span id="percenDisplay">0</span> %</div>
+        </div>
+
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
                <a href="#" class="nav__logo">
                 <img src="/assets/img/Logo yvaan.svg" alt="Yvaan_logo" class="nav__logo">
-                <!-- <strong>Yvan NGOAHITSI</strong> -->
             </a> 
 
                <div class="nav__menu" id="nav-menu">
@@ -1096,6 +1124,12 @@
                             <div>
                                 <h3 class="contact__title">Location</h3>
                                 <span class="contact__subtitle">Agadir - Morroco</span>
+                        <!-- <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13867.971011688367!2d-9.597889874467802!3d30.42500915020602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6eeffcee39b%3A0xae6a49e7878f01b8!2sVall%C3%A9e%20des%20oiseaux%20Agadir!5e0!3m2!1sfr!2sma!4v1664559267964!5m2!1sfr!2sma"
+                        width="400" height="300" style="border-radius: 5%;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe> -->
+
                             </div>
                         </div>
                     </div>
@@ -1163,7 +1197,56 @@
                    </div> 
                 </div>
 
-                <p class="footer__copy">&#169; Design with love by Yvan NGOAHITSI. All right reserved</p>
+                <!-- <div class="banderol_footer banderol_footer_stack">
+                    <div class="text1 text">
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>SASS</span>
+                      <span>JAVASCRIPT</span>
+                      <span>JQUERY</span>
+                      <span>PHP</span>
+                      <span>SQL</span>
+                      <span>NODEJS</span>
+                      <span>EXPRESSJS</span>
+                      <span>ANGULAR</span>
+                    </div>
+                  </div>
+                <div class="banderol_footer">
+                    <div class="text1 text">
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>
+                      <span>Let's work together !</span>    
+                    </div>
+                </div> -->
+
+                <p class="footer__copy">&#169; Design with love by Yvan NGOAHITSI |
+                    <script>
+                        document.write(
+                          new Date()
+                            .toLocaleString("default", { month: "long" })
+                            .slice(0, 3)
+                        );
+                      </script>
+                      <script>
+                        document.write(new Date().getFullYear());
+                      </script> |
+                    All right reserved</p>
             </div>
         </footer>
         
@@ -1177,5 +1260,17 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="/assets/js/main.js" defer></script>
+        <!--==================== GSAP ====================-->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"
+        integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
     </body>
 </html>
