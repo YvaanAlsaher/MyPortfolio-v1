@@ -1,4 +1,4 @@
-# MyPortfolio-v1
+# v1
 
 
 First iteration of my personal portfolio website.
