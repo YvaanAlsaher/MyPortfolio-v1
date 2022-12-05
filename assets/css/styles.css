@@ -228,11 +228,12 @@ img {
 .nav__logo:hover,{
     color: var(--first-color);
 }
-.nav__logo img{
+.nav__logo {
   max-width: 20%;
   height: auto;
   width:auto;
-  color: var(--first-color);
+  fill: var(--first-color);
+  /* color: var(--first-color); */
 }
 
 .nav__toggle {
